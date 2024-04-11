@@ -32,20 +32,8 @@ SELECT *
 FROM superstore
 ORDER BY price desc;
 
-#Show statistics for item prices 
-SELECT SUM (price)
-FROM superstore;
-
-SELECT MAX (price)
-FROM superstore;
-
-SELECT MIN (price)
-FROM superstore;
-
+#Show statistics for item prices
 SELECT AVG(price)
-FROM superstore;
-
-SELECT COUNT (PRICE)
 FROM superstore;
 
 #Show a statistic about the price for items in category "Kitchen Supplies"
